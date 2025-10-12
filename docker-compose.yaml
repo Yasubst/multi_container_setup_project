@@ -1,7 +1,7 @@
 services:
   # Python container
   python_app:
-    build: .
+    image: fastapi_container
     container_name: fastapi_container
     ports:
       - "8000:8000"
